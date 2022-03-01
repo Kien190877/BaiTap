@@ -23,6 +23,21 @@ public class Ngay23Feb {
         System.out.println("tuoi: "+ age);
         System.out.println("so dien thoai: "+ myPhone);
 
+        //2. Toán tử
+        int a = 5;
+        int b = 10;
+        int c = a + b;
+        System.out.println("ket qua cong " + c);
+        // làm thế nào để tăng giá trị a lên thành 6 ?
+        a = a + 1;
+        // neu a=5, kqua a =6
+        a +=1;
+        // neu a=5, kqua a =6
+        a++;
+        // neu a=5, kqua a =6
+        --a;
+        // neu a=5, kqua a =4
+        System.out.println(a);
 
     }
 }

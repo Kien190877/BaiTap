@@ -30,15 +30,59 @@ public class Ngay23Feb {
 
         //2. Toán tử
 
-        // Gia su a=0, làm thế nào để tăng giá trị a lên 1 đơn vị ?
-        // có các cách tăng a thêm 1 đơn vị:
-        // a = a + 1; hoặc là: a += 1;
-        // a++;
-        // ++a:
+        //Gia su a=0, làm thế nào để tăng giá trị a lên 1 đơn vị ?
+        //có các cách tăng a thêm 1 đơn vị:
+        //a = a + 1; hoặc là: a += 1;
+        //a++;:
+        //++a:
+        // Tương tự cho các phép trừ ... muốn trừ giá trị b xuống 1 đơn vị
+        // b = b+1; hoặc là : b-=1;
+        // b --;
+        // --b;
 
-        int a = 5;
-        a+=1;
-        System.out.println("gia tri cua a: "+  a);
+
+//        int a = 5;
+//        a +=2;
+//        System.out.println("gia tri cua a: "+  a);
+//        int b =4;
+//        b++;
+//        System.out.println("Gia tri cua b: "+b);
+//        int c =9;
+//        ++c;
+//        System.out.println("Gia tri cua c: "+c);
+//        int d=8;
+//        --d;
+//        System.out.println("Gia tri cua d: "+d);
+//        int g=8;
+//        g--;
+//        System.out.println("Gia tri cua g: "+g);
+//        int h=8;
+//        h-=1;
+//        System.out.println("Gia tri cua h: "+h);
+//        int x = 11;
+//        x -=4;
+//        System.out.println("Gia trị của x là: "+x);
+
+        // Vd y = 3; nếu ++y voi gtri 4, y voi gtri 4. Tong la 8
+        int y=3;
+        int ketQua1 = ++y + y;
+        System.out.println("ket qua 1: " + ketQua1);
+
+        // Vd k = 4;  k++ gia tri 4, k gtri 5. Tong la 9
+        int k=4;
+        int ketQua2 = k++ + k;
+        System.out.println("ket qua 2: " + ketQua2);
+
+        // Vd XM = 3; nếu --XM voi gtri 2, XM voi gtri 2. Tong la 4
+        int XM=3;
+        int ketQua3 = --XM + XM;
+        System.out.println("ket qua 3: " + ketQua3);
+
+        // Vd XL = 4;  XL-- gia tri 4, XL gtri 3. Tong la 7
+        int XL=4;
+        int ketQua4 = XL-- + XL;
+        System.out.println("ket qua 4: " + ketQua4);
+
 
     }
 }

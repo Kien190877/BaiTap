@@ -63,26 +63,30 @@ public class Ngay23Feb {
 //        x -=4;
 //        System.out.println("Gia trị của x là: "+x);
 
-        // Vd y = 3; nếu ++y voi gtri 4, y voi gtri 4. Tong la 8
-        int y=3;
-        int ketQua1 = ++y + y;
-        System.out.println("ket qua 1: " + ketQua1);
+//        // Vd y = 3; nếu ++y voi gtri 4, y voi gtri 4. Tong la 8
+//        int y=3;
+//        int ketQua1 = ++y + y;
+//        System.out.println("ket qua 1: " + ketQua1);
+//
+//        // Vd k = 4;  k++ gia tri 4, k gtri 5. Tong la 9
+//        int k=4;
+//        int ketQua2 = k++ + k;
+//        System.out.println("ket qua 2: " + ketQua2);
+//
+//        // Vd XM = 3; nếu --XM voi gtri 2, XM voi gtri 2. Tong la 4
+//        int XM=3;
+//        int ketQua3 = --XM + XM;
+//        System.out.println("ket qua 3: " + ketQua3);
+//
+//        // Vd XL = 4;  XL-- gia tri 4, XL gtri 3. Tong la 7
+//        int XL=4;
+//        int ketQua4 = XL-- + XL;
+//        System.out.println("ket qua 4: " + ketQua4);
 
-        // Vd k = 4;  k++ gia tri 4, k gtri 5. Tong la 9
-        int k=4;
-        int ketQua2 = k++ + k;
-        System.out.println("ket qua 2: " + ketQua2);
-
-        // Vd XM = 3; nếu --XM voi gtri 2, XM voi gtri 2. Tong la 4
-        int XM=3;
-        int ketQua3 = --XM + XM;
-        System.out.println("ket qua 3: " + ketQua3);
-
-        // Vd XL = 4;  XL-- gia tri 4, XL gtri 3. Tong la 7
-        int XL=4;
-        int ketQua4 = XL-- + XL;
-        System.out.println("ket qua 4: " + ketQua4);
-
+        int bien =2005;
+        int bien1 = 30;
+        float bien2 = bien%bien1;
+        System.out.print(bien2);
 
     }
 }

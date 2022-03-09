@@ -1,5 +1,10 @@
 public class Ngay23Feb {
     public static void  main(String[] args) {
+
+        // Cách phân biệt Print() va Println() trong java.
+        // Print() là sau khi in ra màn hình thì con trỏ nằm ngày cuối dòng lệnh và kết quả tiếp theo sẽ nằm liền kề ngay con trỏ
+        // Println() là sau khi in ra màn hình thì con trỏ nằm xuống dòng và kết quả tiếp theo sẽ ở dòng kế tiếp (không cùng dòng kqua trước đó)
+
         // 1. kieu du lieu nguyen thuy (premitive type)
         // String (chuổi)
         // int, long (số nguyên, là số không có phần thập phân) .. int (ap dung cho so nguyen duoi 2 ty), long tu 2 ty tro len ...
@@ -83,10 +88,22 @@ public class Ngay23Feb {
 //        int ketQua4 = XL-- + XL;
 //        System.out.println("ket qua 4: " + ketQua4);
 
-        int bien =2005;
-        int bien1 = 30;
-        float bien2 = bien%bien1;
-        System.out.print(bien2);
+
+//        // phép chia lấy nguyên, vd : a/b
+//        // phép chia lấy dư, vd: a%b
+//        // muốn kết quả là số thực (có cả phần trăm, vừa khai báo biến float, vừa gán biến vào tử hoặc mẫu ...
+//
+//        int bien =108;
+//        int bien1 = 25;
+//        float bien2 = bien/bien1;
+//        float bien3 = bien%bien1;
+//        float bien4 = (float)bien/bien1;
+//        float bien5 = bien/(float)bien1;
+//        System.out.println(bien2);
+//        System.out.println(bien3);
+//        System.out.println(bien4);
+//        System.out.println(bien5);
+
 
     }
 }

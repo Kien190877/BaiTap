@@ -1,3 +1,5 @@
+import java.util.Locale;
+
 public class Ngay23Feb {
     public static void  main(String[] args) {
 
@@ -127,8 +129,8 @@ public class Ngay23Feb {
         // *=, /=: nhân, chia rồi gán lại
         // %=: chia lấy dư rồi gán lại kết quả nhận được
 
-        int bien9 = 10;
-        int bien8 = 15;
+//        int bien9 = 10;
+//        int bien8 = 15;
         // bien8 = bien8 + bien9 (viết ngắn gọn: bien8 += bien9, và tương tự cho các phép tính khác ...)
 //        bien8 += bien9;
 //        System.out.println("bien8 += bien9: ket qua la 25:  " + bien8);
@@ -140,6 +142,24 @@ public class Ngay23Feb {
 //        System.out.println("bien8 /= bien9: ket qua la 1: "+ bien8);
 //        bien8 %= bien9;
 //        System.out.println("bien8 %= bien9: ket qua la 1: "+ bien8);
+
+        //String: dùng để lưu trữ chuỗi các ký tự
+        //lấy độ dài chuỗi ký tự: length()
+        //Viết hoa, viết thường chuỗi: toUpperCase(), toLowerCase(), ...
+        //Các ký tự đặc biệt: '. ", \, /, \n, \t
+        //Nối chuỗi ký tự, dùng toán tử nối: (+)
+        //Lưu ý khi kết hợp giữa String với thứ khác ....
+
+        String  msg = "Hello world";
+        String name = "Quang Kien";
+        System.out.println(msg);
+        System.out.println(msg.length());
+        System.out.println(msg.toUpperCase());
+        System.out.println(msg.toLowerCase());
+
+        //muốn tìm chữ "w" đứng vị trí thứ mấy trong chuối "hello world"
+        System.out.println(msg.indexOf("w"));
+        System.out.println(msg +" "+ name);
 
     }
 }

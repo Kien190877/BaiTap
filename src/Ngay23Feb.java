@@ -103,7 +103,43 @@ public class Ngay23Feb {
 //        System.out.println(bien3);
 //        System.out.println(bien4);
 //        System.out.println(bien5);
+//
+//        // chu y trong phương thức println(). Nếu có "character", thì kết quả là một chuỗi, và "+" là phép gán giữa các phần tử ...
+//        // nếu không có "character" thì "+" là toán tử để tính toán giữa các phần tử với nhau ...
+//
+//        System.out.println("Ket qua, đây là một chuỗi: "+ bien1 + ((float)bien/bien1));
+//        System.out.println(bien1 + ((float)bien/bien1));
+//
+//        // phương thức in ra màn hình: println là kết quả sẽ xuống dòng, còn print là kết quả đứng ngay cạnh kết quả trước đó trên cùng 1 dòng.
 
+        // Toán tử so sánh
+
+//        int bien6 = 10;
+//        int bien7 = 10;
+//        System.out.println("bien6 > bien7 ? " + (bien6>bien7));
+//        System.out.println("bien6 <= bien7 ? " + (bien6<=bien7));
+//        System.out.println("bien6 == bien7 ? " + (bien6==bien7));
+//        System.out.println("bien6 != bien7 ? " + (bien6!=bien7));
+
+        // Toán tử gán ?
+        // =: phép gán
+        // +=, -=: cộng, trừ giá trị rồi gán
+        // *=, /=: nhân, chia rồi gán lại
+        // %=: chia lấy dư rồi gán lại kết quả nhận được
+
+        int bien9 = 10;
+        int bien8 = 15;
+        // bien8 = bien8 + bien9 (viết ngắn gọn: bien8 += bien9, và tương tự cho các phép tính khác ...)
+//        bien8 += bien9;
+//        System.out.println("bien8 += bien9: ket qua la 25:  " + bien8);
+//        bien8 -= bien9;
+//        System.out.println("bien8 -= bien9: ket qua la 5: " + bien8);
+//        bien8 *= bien9;
+//        System.out.println("bien8 *= bien9: ket qua la 150: "+ bien8);
+//        bien8 /= bien9;
+//        System.out.println("bien8 /= bien9: ket qua la 1: "+ bien8);
+//        bien8 %= bien9;
+//        System.out.println("bien8 %= bien9: ket qua la 1: "+ bien8);
 
     }
 }

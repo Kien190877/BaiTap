@@ -1,3 +1,5 @@
+import jdk.nashorn.internal.ir.IfNode;
+
 import java.util.Locale;
 
 public class Ngay23Feb {
@@ -146,20 +148,43 @@ public class Ngay23Feb {
         //String: dùng để lưu trữ chuỗi các ký tự
         //lấy độ dài chuỗi ký tự: length()
         //Viết hoa, viết thường chuỗi: toUpperCase(), toLowerCase(), ...
-        //Các ký tự đặc biệt: '. ", \, /, \n, \t
+        //Các ký tự đặc biệt: '. ", /, \, \n, \t, \", \'
         //Nối chuỗi ký tự, dùng toán tử nối: (+)
         //Lưu ý khi kết hợp giữa String với thứ khác ....
+        // Các thuộc tính của String() ...
 
-        String  msg = "Hello world";
-        String name = "Quang Kien";
-        System.out.println(msg);
-        System.out.println(msg.length());
-        System.out.println(msg.toUpperCase());
-        System.out.println(msg.toLowerCase());
+//        String  msg = "Hello world";
+//        String name = "Quang Kien";
+//        int BB = 2;
+//        int AA  =4;
+//        System.out.println(msg);
+//        System.out.println(msg.length());
+//        System.out.println(msg.toUpperCase());
+//        System.out.println(msg.toLowerCase());
 
-        //muốn tìm chữ "w" đứng vị trí thứ mấy trong chuối "hello world"
-        System.out.println(msg.indexOf("w"));
-        System.out.println(msg +" "+ name);
+//        //muốn tìm chữ "w" đứng vị trí thứ mấy trong chuối "hello world"
+//        System.out.println(msg.indexOf("w"));
+//        System.out.println(msg +" "+ name);
+//        // nếu dùng \n là để xuống dòng. Nếu dùng \' là muốn chèn ký tự đặc biệt vào chuỗi ...
+//        System.out.println(msg +"\n"+ name);
+//        System.out.println(msg +"\'"+ name + " "+ BB +AA);
+//        // nếu các biến đặt trong dấu ngoặc thì thành phép tính dựa trên toán tử trong dấu ngoặc ...
+//        System.out.println(msg +"\'"+ name + " " +(BB +AA));
+
+        // Tìm hiểu lớp Math ...
+
+//        int AA = 3;
+//        int BB = 10;
+//        float X = (float)BB/AA;
+//        System.out.println("Max cua AA, BB là: " + Math.max(AA, X));
+//        System.out.println("Min cua AA, BB là: " + Math.min(BB, AA));
+//        System.out.println("Gia tri cua X: "+ X);
+//        // Gia trị làm tròn, nếu phần thập phân lớn hơn 0.5 thì làm tròn lên, và ngược lại là giữ nguyên giá trị ...
+//        System.out.println("Gia tri X làm tròn: "+ Math.round(X));
+//        // Giá trị làm tròn lên, nghĩa là chỉ cần có phần thập phân là cộng thêm 1 giá trị, bất kể là lớn hơn 0.5 hay nhỏ hơn ...
+//        System.out.println("Gia tri X làm tròn lên: "+ Math.ceil(X));
+//        // Giá trị làm tròn xuống, nghĩa là luôn lấy phần nguyên, không kể có giá trị thập phân hay không ?
+//        System.out.println("Gia tri X làm tròn lên: "+ Math.floor(X));
 
     }
 }

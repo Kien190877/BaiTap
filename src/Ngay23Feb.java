@@ -145,13 +145,14 @@ public class Ngay23Feb {
 //        bien8 %= bien9;
 //        System.out.println("bien8 %= bien9: ket qua la 1: "+ bien8);
 
-        //String: dùng để lưu trữ chuỗi các ký tự
-        //lấy độ dài chuỗi ký tự: length()
-        //Viết hoa, viết thường chuỗi: toUpperCase(), toLowerCase(), ...
-        //Các ký tự đặc biệt: '. ", /, \, \n, \t, \", \'
-        //Nối chuỗi ký tự, dùng toán tử nối: (+)
-        //Lưu ý khi kết hợp giữa String với thứ khác ....
-        // Các thuộc tính của String() ...
+
+//      //String: dùng để lưu trữ chuỗi các ký tự
+//     //lấy độ dài chuỗi ký tự: length()
+//       // Viết hoa, viết thường chuỗi: toUpperCase(), toLowerCase(), ...
+//       //  Các ký tự đặc biệt: '. ", /, \, \n, \t, \", \'
+//       // Nối chuỗi ký tự, dùng toán tử nối: (+)
+//       // Lưu ý khi kết hợp giữa String với thứ khác ....
+//       //  Các thuộc tính của String() ...
 
 //        String  msg = "Hello world";
 //        String name = "Quang Kien";
@@ -171,7 +172,7 @@ public class Ngay23Feb {
 //        // nếu các biến đặt trong dấu ngoặc thì thành phép tính dựa trên toán tử trong dấu ngoặc ...
 //        System.out.println(msg +"\'"+ name + " " +(BB +AA));
 
-        // Tìm hiểu lớp Math ...
+//         //Tìm hiểu lớp Math ...
 
 //        int AA = 3;
 //        int BB = 10;

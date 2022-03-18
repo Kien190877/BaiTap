@@ -1,9 +1,8 @@
-import jdk.nashorn.internal.runtime.regexp.joni.ast.StringNode;
-
-import static javax.management.Query.and;
-
-public class If_Else {
+public class Ngay28Feb {
     public static void  main(String[] args) {
+
+        //Vong lap If ... Else ....
+
         int x = 5;
         if (x %2 == 0) {
             System.out.println("X la só chẵn");
@@ -27,12 +26,13 @@ public class If_Else {
         //Toán tử gán: =, +=, -=, *=, /=
         //Toán tử trong quan hệ: >, <, >=, <=, ==, !=
 
-        String a = "monthx";
+        String a = "XX";
         int thang = 18;
         if (thang >=1 && thang <=12 ) {
             System.out.println("Thang trong nam hop ly");
-        }  else if (thang >12 || thang == 0) {
+        }  else if ((thang >12 || thang == 0) && a =="XX") {
             System.out.println("Tháng không hợp lý trong nam");
         }
+
     }
 }

@@ -5,6 +5,34 @@ import java.util.Locale;
 public class Ngay23Feb {
     public static void  main(String[] args) {
 
+        //Khai báo mảng Array
+        //Khai báo Mảng khi biết kích thước (String)
+
+        String[] arrNames = new String[10];
+
+        //Khai báo Mảng và định nghĩa các phần tử (int)
+        int[] arrNumbers = {10,12,9,7,6,14};
+
+        //Lấy giá trị phần tử trong Mảng ...
+        //chu ý, nếu biến chưa gán giá trị thì báo lỗi là "null"
+
+        System.out.println(arrNumbers[1]);
+        System.out.println(arrNames[1]);
+
+        //Lấy kích thước Mảng ...
+        //arrNumbers.length;
+
+        //trích xuất giá trị cuối cùng kiểu số của Mảng ... ta lấy kích thước mảng và trừ 1
+        System.out.println(arrNumbers[arrNumbers.length -1]);
+
+        //Cập nhật giá trị cho phần tử Mảng ..
+        arrNames[0] = "Tuấn";
+        arrNames[1] = "Thanh";
+        arrNames[2] = "Toàn";
+
+        System.out.println(arrNames[2]);
+
+
         // Cách phân biệt Print() va Println() trong java.
         // Print() là sau khi in ra màn hình thì con trỏ nằm ngày cuối dòng lệnh và kết quả tiếp theo sẽ nằm liền kề ngay con trỏ
         // Println() là sau khi in ra màn hình thì con trỏ nằm xuống dòng và kết quả tiếp theo sẽ ở dòng kế tiếp (không cùng dòng kqua trước đó)

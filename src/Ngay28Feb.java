@@ -95,6 +95,8 @@ public class Ngay28Feb {
 
         //Vòng lặp rẽ nhánh : switch-cases
         //biến của giá trị case phải trùng với biến khai báo trước đó (dk)
+        //chú ý phải đặt lệnh break; vì nếu không sẽ thực hiện ở các case dù case đó thỏa hay không thỏa  ...
+
         int dk = 3;
         switch (dk) {
             case 1:

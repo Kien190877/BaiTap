@@ -1,6 +1,7 @@
 public class Ngay02Mar {
     public static void main(String[] args) {
 
+        //Tạo ra Object
         Animal meo = new Animal("2","0.5");
 
         System.out.println("Con Meo: " + meo);
@@ -11,6 +12,8 @@ public class Ngay02Mar {
         System.out.println("Xe: "+ toyota);
         System.out.println("dong co: "+ toyota.dongco);
         System.out.println("loai xe: " + toyota.loaixe);
+
+
 
     }
 }
